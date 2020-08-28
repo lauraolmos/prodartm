@@ -1,0 +1,48 @@
+:root{
+	/* Colores */
+	--cPrincipal:#2789E0;
+	--cSecundario:#1E59F7;
+	--cDetalles:#1ECBF7;
+	--cOtros: #606060;
+	--cFooter:#212255;
+	--cFondo:#ffffff;
+}
+
+footer{
+    background-color: var(--cFooter);
+    display: flex;
+}
+
+footer ul{
+    color: white;
+}
+
+.navbar{
+    background-color: var(--white);
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+
+.navbar-light .navbar-brand{
+    color: var(--cOtros);
+}
+
+
+.navbar-light .navbar-brand h1{
+    font-size: 1.5rem;
+ 
+}
+
+.navbar-brand img {
+    height: 6rem;
+    width: auto;
+  }
+
+  @media screen and (max-width: 992px){
+    #main-navbar {
+        clear: both;
+    }
+  }
