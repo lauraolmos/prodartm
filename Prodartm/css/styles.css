@@ -15,8 +15,29 @@
 body {
     font-family: var(--font-family);
   }
-  
 
+h1 {
+  color: var(--cFondo);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3{
+  color: var(--cFondo);
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+  
+li{
+  font-size: .8rem;
+}
+
+button{
+  background-color: var(--cSecundario);
+  border: none;
+  border-radius: .5rem;
+  color: var(--cFondo);
+}
 /* ********** Bootstrap Styles ********** */
 
 .active{
@@ -24,17 +45,22 @@ body {
 }
 
 .navbar-brand img {
-    height: 6rem;
+    height: 70px;
     width: auto;
   }
 
   .nav-link {
     color: var(--cSecundario) !important;
+    font-size: .8rem;
     text-transform: uppercase;
   }
 
   .nav-link:hover {
     color: var(--cPrincipal) !important;
+  }
+
+  .rounded {
+    border-radius: 2rem!important;
   }
 
 /* ********** My Styles ********** */
@@ -55,21 +81,36 @@ body {
     background-color: var(--cFooter);
   }
 
+  .bg-cPrincipal{
+    background-color: var(--cPrincipal);
+  }
 
   /* ********** MediaQueries ********** */
 /* Small devices (landscape phones, 576px and up) sm*/
 @media (min-width: 576px) {
+  html{
+    font-size: 1rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) md*/
 @media (min-width: 768px) {
+  html{
+    font-size: 1.2rem;
+  }
 }
 
 /* Large devices (desktops, 990px and up) lg*/
 @media (min-width: 990px) {
+  html{
+    font-size: 1.3rem;
+  }
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) xl*/
 @media (min-width: 1200px) {
+  html{
+    font-size: 1.4rem;
+  }
 }
