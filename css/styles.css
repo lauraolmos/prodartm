@@ -87,6 +87,14 @@
     left: -90px; 
   }
 
+  .text-principal{
+    color: var(--cPrincipal);
+  }
+
+  .text-otros{
+    color: var(--cOtros);
+  }
+
   /* ********** MediaQueries ********** */
 /* Small devices (landscape phones, 576px and up) sm*/
 @media (min-width: 576px) {
