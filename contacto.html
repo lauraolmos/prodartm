@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    
-    <title>Prodartm · Producción Diseño y Arte en multimedia</title>
+    <title>Contáctenos</title>
     <meta name="description"
-    content="Expertos en seguimiento de obra en foto y video para la arquitectura e ingeniería">
+    content="Describa su proyecto para ofrecerle un presupuesto personalizado o bien contáctenos vía WhatsApp">
   
     <link rel="stylesheet" href="css/styles.css">
   
@@ -29,7 +29,7 @@
       <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-cFondo"> 
             <a class="navbar-brand" href="index.html">
               <img src="img/isologotipo_prdrtm.png" alt="Prodartm">
-              <img src="img/titulo.png" alt="Producción diseño y arte en multimedia">
+              <img src="img/titulo.png" alt="Producción diseño y arte en multimedia" class=" border border-light"> 
             </a>
           <button class="navbar-toggler float-lg-right float-xl-right" type="button"
           data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -38,8 +38,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item mx-3 active">
-                <a class="nav-link" href="index.html">Inicio<span class="sr-only active">(current)</span></a>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="index.html">Inicio</a>
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
@@ -47,8 +47,8 @@
               <li class="nav-item mx-3">
                 <a class="nav-link" href="servicios.html">Servicios</a>
               </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link" href="contacto.html#2">Contacto</a>
+              <li class="nav-item mx-3 active">
+                <a class="nav-link" href="contacto.html">Contacto<span class="sr-only active">(current)</span></a>
               </li>
             </ul>
           </div>
@@ -58,53 +58,76 @@
       <main class="container flex-grow-1">
         <section class="row bg-cPrincipal rounded-lg p-5 my-4">
           <article class="col-11 col-md-8">
-            <h1 class="my-2 text-white">Seguimiento de obra en video para la arquitectura e ingeniería</h1>
+            <h1 class="my-2 text-white">Estamos para ayudarle</h1>
             <p class="lead my-3 text-white">
-            Más de 10 años de experiencia ilustrando el quehacer de la industria de la construcción nos respaldan
+                Describa su proyecto para ofrecerle un presupuesto personalizado.
             </p>
-            <a class="btn btn-primary btn-lg" href="contacto.html" role="button">COTIZAR</a>
           </article>
           <article class="col-1 col-md-4">
-            <img src="img/inspire_index.png" class="position-relative d-none d-lg-block" alt="Prodartm">
-          </article>  
+            <img src="img/contacto.PNG" class="position-relative d-none d-lg-block" alt="Prodartm">
+          </article> 
+          <article>
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputTipoDeObra">Tipo de obra</label>
+                    <input type="text" class="form-control" id="inputTipoDeObra" placeholder="ej. Construcción de un museo">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputDimension">Dimensión</label>
+                    <input type="text" class="form-control" id="inputDimension" placeholder="ej. 200 m2 o 32 km lineales">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputEstatusDeLaObra">Estatus de la obra</label>
+                    <input type="text" class="form-control" id="inputEstatusDeLaObra" placeholder="ej. Por comenzar, en proceso, etc.">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputFechaTentativaParaComenzar">Fecha tentativa para comenzar</label>
+                    <input type="text" class="form-control" id="inputFechaTentativaParaComenzar" placeholder="ej. cuánto antes, en 3 meses, etc.">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPeriodicidadDeLasVisitas">Fecha tentativa para comenzar</label>
+                    <input type="text" class="form-control" id="inputPeriodicidadDeLasVisitas" placeholder="ej. única vez, quincenal, etc.">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputZonaDeTrabajo">Zona de trabajo</label>
+                    <input type="text" class="form-control" id="inputZonaDeTrabajo" placeholder="ej. Acapulco, en Guerrero">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputCorreo">Correo de contacto</label>
+                    <input type="email" class="form-control" id="inputCorreo" placeholder="ej. micorreo@hotmail.com">
+                  </div>
+
+                </div>
+                <div class="form-group">
+                  <label for="inputComentariosAdicionales">Escriba su mensaje aquí</label>
+                  <input type="text-area" class="form-control" id="inputComentarios adicionales" placeholder="ej. Nos interesa cotizar, favor de contactarse con el ing. José López.">
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-lg my-2">ENVIAR</button>
+              </form>
+          </article>
+
         </section>
         
-        <section class="my-5 rounded">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="media/index_2.mp4"></iframe>
-          </div>
-        </section>
-
-        <section class="row my-5">
-          <div class="col-12 col-md-4 text-secondary">
-            <h5 class="text-principal">
-             | EXPERIENCIA EN EL RAMO
-            </h5>
-            <p>
-              Nos especializamos en video, renders, animaciones 3D y motion graphics que ilustren la magnitud de su obra.
-            </p>
-          </div>
-          <div class="col-12 col-md-4 order-1 text-secondary">
-            <h5 class="text-principal">
-              | CALIDAD Y VANGUARDIA
-            </h5>
-            <p>
-              Usamos equipos especializados para lograr la calidad que usted necesita.
-            </p>
-          </div>
-          <div class="col-12 col-md-4 text-secondary">
-            <h5 class="text-principal">
-              | SOLUCIONES A LA MEDIDA
-            </h5>
-            <p>
-              Diseñamos los materiales de acuerdo a sus necesidades y presupuesto.
-            </p>
-          </div>
-        </section>
+        <section class="bg-cPrincipal rounded-lg p-5 my-5 row" id="2">
+            <article class="col-12 col-md-6">
+                <h1 class="my-2 text-white">O bien, contáctenos</h1>
+                <p class="lead my-3 text-white">
+                    Envíe un WhatsApp <br> o llame al 55 3455 · 5402
+                </p>
+              </article>
+            <aside class="my-3 d-none d-md-block col-md-6">
+                <img src="img/contacto_qr.png" alt="Escanee con su celular para agregarnos a sus contactos">
+                <small class="text-white d-md-block my-3">
+                    Escanée este código QR con Google Lens en Android o desde su cámara en iPhone para agregarnos a sus contactos.
+                </small>
+            </aside>
+          </section>
 
       </main>
 
- <footer class="bg-cFooter text-white">
+      <footer class="bg-cFooter text-white">
         <div class="container-fluid d-lg-flex d-xl-flex justify-content-around">
             <div class="text-left my-3" id="footerNosotros">
                 <a class="text-principal" href="nosotros.html">SOBRE NOSOTROS</a>

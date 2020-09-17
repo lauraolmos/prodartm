@@ -39,6 +39,20 @@
     height: 350px;
 }
 
+.form-control {
+  color:  var(--cFondo);
+  border: 3px solid var(--cSecundario);
+  border-radius: 1rem;
+}
+
+form div div label{
+  color:  var(--cFondo) !important;
+}
+
+form div label{
+  color:  var(--cFondo) !important;
+}
+
 .navbar-brand img {
     height: 70px;
     width: auto;
@@ -56,14 +70,6 @@
 
 
 /* ********** My Styles ********** */
-.a-color-cPrincipal {
-    color: var(--cPrincipal);
-  }
-  
- .a-color-cPrincipal:hover{
-    color: var(--cSecundario);
-    text-decoration: none;
-  }
 
 .bg-cFondo {
     background-color: var(--cFondo);

@@ -48,7 +48,7 @@
                 <a class="nav-link" href="servicios.html">Servicios</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="nav-link" href="contacto.html#2">Contacto</a>
               </li>
             </ul>
           </div>
@@ -104,18 +104,18 @@
 
       </main>
 
-      <footer class="bg-cFooter text-white">
+<footer class="bg-cFooter text-white">
         <div class="container-fluid d-lg-flex d-xl-flex justify-content-around">
             <div class="text-left my-3" id="footerNosotros">
-                <a class="a-color-cPrincipal" href="nosotros.html">SOBRE NOSOTROS</a>
+                <a class="text-principal" href="nosotros.html">SOBRE NOSOTROS</a>
                 <ul class="list-unstyled justify-content-between small">
                     <li>Socios</li>
                     <li>CAD · Renders y animaciones</li>
-                    <li><a class="a-color-cPrincipal" href="https://youtu.be/Mtfl6kf3xoU" target="_blank">Chilangodrone</a></li>
+                    <li><a class="text-otros" href="https://youtu.be/Mtfl6kf3xoU" target="_blank">Chilangodrone</a></li>
                 </ul>
             </div>
             <div class="text-left my-3" id="footerServicios">
-                <a class="a-color-cPrincipal" href="servicios.html">SERVICIOS</a>
+                <a class="text-principal" href="servicios.html">SERVICIOS</a>
                 <ul class="list-unstyled justify-content-between small">
                     <li>Video aéreo con drones</li>
                     <li>Video y fotografía diurna y nocturna</li>
@@ -124,9 +124,9 @@
                 </ul>
             </div>
             <div class="text-left my-3" id="footerContacto">
-                <a class="a-color-cPrincipal" href="contacto.html">CONTACTO</a>
+                <a class="text-principal" href="contacto.html">CONTACTO</a>
                 <ul class="list-unstyled justify-content-between small">
-                    <li><a class="a-color-cPrincipal" href="contacto.html#qr">WhatsApp</a></li>
+                    <li><a class="text-otros" href="contacto.html#2">WhatsApp</a></li>
                     <li>CDMX · Guadalajara</li>
                 </ul>
             </div>
