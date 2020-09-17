@@ -1,0 +1,132 @@
+/* ********** Custom Properties ********** */
+:root{
+	--cPrincipal:#2789E0;
+	--cSecundario:#1E59F7;
+	--cDetalles:#1ECBF7;
+	--cOtros: #606060;
+	--cFooter:#212255;
+    --cFondo:#ffffff;
+    --navbar-height: 52px;
+    --font-family: "Open Sans", sans-serif;
+}
+
+
+/* ********** Reset Styles ********** */
+
+
+/* ********** Bootstrap Styles ********** */
+
+.active{
+    border-bottom: 3px solid var(--cPrincipal);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--cSecundario);
+  border-color: var(--cSecundario);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-responsive-fixed{
+    max-width: 350px;
+    height: 350px;
+}
+
+.form-control {
+  color:  var(--cFooter);
+  border: 3px solid var(--cSecundario);
+  border-radius: 1rem;
+}
+
+form div div label{
+  color:  var(--cFondo) !important;
+}
+
+form div label{
+  color:  var(--cFondo) !important;
+}
+
+.navbar-brand img {
+    height: 70px;
+    width: auto;
+  }
+
+  .nav-link {
+    color: var(--cSecundario) !important;
+    font-size: .8rem;
+    text-transform: uppercase;
+  }
+
+  .nav-link:hover {
+    color: var(--cPrincipal) !important;
+  }
+
+
+/* ********** My Styles ********** */
+
+.bg-cFondo {
+    background-color: var(--cFondo);
+  }
+
+.bg-cFooter{
+    background-color: var(--cFooter);
+  }
+
+  .bg-cPrincipal{
+    background-color: var(--cPrincipal);
+  }
+
+  main section article img{
+    top: -90px; 
+    left: -90px; 
+  }
+
+  .img-position-absolute{
+    top: -90px; 
+    left: -90px; 
+  }
+
+  .text-principal{
+    color: var(--cPrincipal);
+  }
+
+  .text-otros{
+    color: var(--cOtros);
+  }
+
+  /* ********** MediaQueries ********** */
+/* Small devices (landscape phones, 576px and up) sm*/
+@media (min-width: 576px) {
+  html{
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) md*/
+@media (min-width: 768px) {
+  html{
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (desktops, 990px and up) lg*/
+@media (min-width: 990px) {
+  html{
+    font-size: 1.1rem;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) xl*/
+@media (min-width: 1200px) {
+  html{
+    font-size: 1.2rem;
+  }
+}
