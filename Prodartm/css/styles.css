@@ -12,36 +12,31 @@
 
 
 /* ********** Reset Styles ********** */
-body {
-    font-family: var(--font-family);
-  }
 
-h1 {
-  color: var(--cFondo);
-  font-size: 2rem;
-  font-weight: bold;
-}
 
-h3{
-  color: var(--cFondo);
-  font-size: 1.1rem;
-  font-weight: lighter;
-}
-  
-li{
-  font-size: .8rem;
-}
-
-button{
-  background-color: var(--cSecundario);
-  border: none;
-  border-radius: .5rem;
-  color: var(--cFondo);
-}
 /* ********** Bootstrap Styles ********** */
 
 .active{
     border-bottom: 3px solid var(--cPrincipal);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--cSecundario);
+  border-color: var(--cSecundario);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-responsive-fixed{
+    max-width: 350px;
+    height: 350px;
 }
 
 .navbar-brand img {
@@ -59,9 +54,6 @@ button{
     color: var(--cPrincipal) !important;
   }
 
-  .rounded {
-    border-radius: 2rem!important;
-  }
 
 /* ********** My Styles ********** */
 .a-color-cPrincipal {
@@ -85,6 +77,16 @@ button{
     background-color: var(--cPrincipal);
   }
 
+  main section article img{
+    top: -90px; 
+    left: -90px; 
+  }
+
+  .img-position-absolute{
+    top: -90px; 
+    left: -90px; 
+  }
+
   /* ********** MediaQueries ********** */
 /* Small devices (landscape phones, 576px and up) sm*/
 @media (min-width: 576px) {
@@ -96,14 +98,14 @@ button{
 /* Medium devices (tablets, 768px and up) md*/
 @media (min-width: 768px) {
   html{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 /* Large devices (desktops, 990px and up) lg*/
 @media (min-width: 990px) {
   html{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
 }
@@ -111,6 +113,6 @@ button{
 /* Extra large devices (large desktops, 1200px and up) xl*/
 @media (min-width: 1200px) {
   html{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
