@@ -22,6 +22,36 @@
     <link rel="stylesheet" href="css/styles.css">
   
     <link rel="icon" href="img/isotipo_prdrtm.png">
+
+    <!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('psca8mw5piug');
+    </script>
+    <!-- End of Async Drift Code -->
+    
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -67,44 +97,47 @@
             <img src="img/contacto.PNG" class="position-relative d-none d-lg-block" alt="Prodartm">
           </article> 
           <article>
-            <form>
+                <form  target="_blank" action="https://formsubmit.co/lauraolmos@outlook.com" method="POST">
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="inputTipoDeObra">Tipo de obra</label>
-                    <input type="text" class="form-control" id="inputTipoDeObra" placeholder="ej. Construcción de un museo">
+                    <input type="text" name="TipoDeObra" class="form-control" id="inputTipoDeObra" placeholder="ej. Construcción de un museo">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputDimension">Dimensión</label>
-                    <input type="text" class="form-control" id="inputDimension" placeholder="ej. 200 m2 o 32 km lineales">
+                    <input type="text" name="Dimension" class="form-control" id="inputDimension" placeholder="ej. 200 m2 o 32 km lineales">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputEstatusDeLaObra">Estatus de la obra</label>
-                    <input type="text" class="form-control" id="inputEstatusDeLaObra" placeholder="ej. Por comenzar, en proceso, etc.">
+                    <input type="text" name="Estatus" class="form-control" id="inputEstatusDeLaObra" placeholder="ej. Por comenzar, en proceso, etc.">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputFechaTentativaParaComenzar">Fecha tentativa para comenzar</label>
-                    <input type="text" class="form-control" id="inputFechaTentativaParaComenzar" placeholder="ej. cuánto antes, en 3 meses, etc.">
+                    <input type="text" name="FechaParaComenzar" class="form-control" id="inputFechaTentativaParaComenzar" placeholder="ej. cuánto antes, en 3 meses, etc.">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputPeriodicidadDeLasVisitas">Fecha tentativa para comenzar</label>
-                    <input type="text" class="form-control" id="inputPeriodicidadDeLasVisitas" placeholder="ej. única vez, quincenal, etc.">
+                    <input type="text" name="Periodicidad" class="form-control" id="inputPeriodicidadDeLasVisitas" placeholder="ej. única vez, quincenal, etc.">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputZonaDeTrabajo">Zona de trabajo</label>
-                    <input type="text" class="form-control" id="inputZonaDeTrabajo" placeholder="ej. Acapulco, en Guerrero">
+                    <input type="text" name="Zona" class="form-control" id="inputZonaDeTrabajo" placeholder="ej. Acapulco, en Guerrero">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputCorreo">Correo de contacto</label>
-                    <input type="email" class="form-control" id="inputCorreo" placeholder="ej. micorreo@hotmail.com">
+                    <input type="email" name="email" class="form-control" id="inputCorreo" placeholder="ej. micorreo@hotmail.com">
                   </div>
 
                 </div>
                 <div class="form-group">
                   <label for="inputComentariosAdicionales">Escriba su mensaje aquí</label>
-                  <input type="text-area" class="form-control" id="inputComentarios adicionales" placeholder="ej. Nos interesa cotizar, favor de contactarse con el ing. José López.">
+                  <input type="text" name="Comentarios" class="form-control" id="inputComentarios adicionales" placeholder="ej. Nos interesa cotizar, favor de contactarse con el ing. José López.">
                 </div>
                 
                 <button type="submit" class="btn btn-primary btn-lg my-2">ENVIAR</button>
+
+                <input type="hidden" name="_cc" value="carlosa_e7@hotmail.com">
+
               </form>
           </article>
 

@@ -40,7 +40,7 @@
 }
 
 .form-control {
-  color:  var(--cFondo);
+  color:  var(--cFooter);
   border: 3px solid var(--cSecundario);
   border-radius: 1rem;
 }
