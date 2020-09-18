@@ -107,6 +107,11 @@ form div label{
   html{
     font-size: 1rem;
   }
+    .card-columns .card {
+      display: inline-flex;
+      width: 100%;
+  }
+  
 }
 
 /* Medium devices (tablets, 768px and up) md*/
@@ -130,3 +135,4 @@ form div label{
     font-size: 1.2rem;
   }
 }
+
